@@ -145,6 +145,7 @@ observer.observe(sec);
 
 
 
+
 const sections=document.querySelectorAll("section");
 
 const navLinks=document.querySelectorAll(".nav-links a");
@@ -181,7 +182,9 @@ link.classList.add("active");
 
 });
 
-
+// ===============================
+// Back To Top Button
+// ===============================
 
 const topBtn=document.createElement("button");
 
