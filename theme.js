@@ -61,7 +61,7 @@ themeBtn.onclick=function(){
 
 
 
-const words=[Web Developer"];
+const words=["Web Developer"];
 
 let wordIndex=0;
 
