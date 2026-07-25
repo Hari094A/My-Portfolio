@@ -1,6 +1,4 @@
-// ===============================
-// Mobile Menu
-// ===============================
+
 
 const menuBtn = document.getElementById("menuBtn");
 const menu = document.getElementById("menu");
@@ -15,9 +13,7 @@ if(menuBtn){
 
 }
 
-// ===============================
-// Close menu after click
-// ===============================
+
 
 document.querySelectorAll(".nav-links a").forEach(link=>{
 
@@ -29,9 +25,7 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
 
 });
 
-// ===============================
-// Dark Mode
-// ===============================
+
 
 const themeBtn=document.getElementById("theme-toggle");
 
@@ -65,9 +59,7 @@ themeBtn.onclick=function(){
 
 };
 
-// ===============================
-// Typing Animation
-// ===============================
+
 
 const words=[
 
@@ -75,9 +67,7 @@ const words=[
 
 "Web Developer",
 
-"Java Developer",
-
-"Frontend Developer"
+"
 
 ];
 
@@ -137,9 +127,7 @@ function typeEffect(){
 
 typeEffect();
 
-// ===============================
-// Scroll Animation
-// ===============================
+
 
 const observer=new IntersectionObserver((entries)=>{
 
@@ -163,9 +151,7 @@ observer.observe(sec);
 
 });
 
-// ===============================
-// Active Navbar
-// ===============================
+
 
 const sections=document.querySelectorAll("section");
 
@@ -203,9 +189,7 @@ link.classList.add("active");
 
 });
 
-// ===============================
-// Back To Top Button
-// ===============================
+
 
 const topBtn=document.createElement("button");
 
