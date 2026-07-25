@@ -63,7 +63,7 @@ themeBtn.onclick=function(){
 
 const words=[
 
-"Full Stack Developer",
+
 
 "Web Developer",
 
